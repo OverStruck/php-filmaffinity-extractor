@@ -38,7 +38,7 @@
             INFO.html("CARGANDO...");
 
             var filmID = $("#filmID").val();
-            var connection = $.get('script.php', {
+            var connection = $.get('example-script.php', {
                 "id": filmID
             }, checkResponse, "json");
 
