@@ -1,5 +1,5 @@
 # php-filmaffinity-extractor
-PHP class to extract and parse Filmaffinity.com movie information
+PHP class to extract and parse Filmaffinity.com movie information.
 *Para ESPAÑOL leer mas abajo*
 
 * Please see *example-script.php* & *example-page.php* for a working example on how to use this class
