@@ -1,7 +1,7 @@
 <?php
 	/**
 	 * @author OverStruck (Juanix.net, OverStruck.com, github.com/overstruck)
-	 * @version 0.1
+	 * @version 0.2
 	 * @todo error checking?
 	 * @license http://opensource.org/licenses/MIT
 	 */
@@ -90,7 +90,7 @@
 		 * @return array cleaned and formated film info
 		 */
 		private function generate_detailed_info_array($source) {
-			$length    = count($source);
+			$length    = count($source) - 1;
 			$new_array = array();
 			for ($i = 0; $i < $length; $i++) {
 				$key             = $this->remove_accents($source[$i]);
